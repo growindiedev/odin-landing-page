@@ -1,10 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
 * {
   box-sizing: border-box;
   /* border: 1px dotted green; */
+  font-family: 'Roboto', ariel;
 }
 
 img {
   display: block;
+}
+
+button {
+  /* border: 2px solid lightgray; */
+  /* background-color: white; */
+  padding: 0.7em 1.4em;
+  border-radius: 10px;
+  margin: 25px 25px 25px 0;
+  background-color: #3882F6;
+  color: #F9FAF8;
 }
 
 body {
@@ -14,6 +27,12 @@ body {
   flex-direction: column;
 }
 
+h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #F9FAF8;
+}
+
 header, footer, .section1 {
   background-color: #1F2937;
   color: white;
@@ -21,13 +40,11 @@ header, footer, .section1 {
 
 header ul{
   display: flex;
-  background-color: #1F2937;
-}
-
-ul {
+  /* background-color: #1F2937; */
   list-style: none;
   padding: 0;
 }
+
 
 li {
   margin: 0 10px;
@@ -39,6 +56,7 @@ li {
 
 .section {
   display: flex;
+  padding: 40px 0px;
 }
 
  /* .item.left {
@@ -60,14 +78,107 @@ li {
     justify-content: center;
  }
 
+ .right img {
+  border: 4px solid white;
+  border-radius: 15px;
+  object-fit: cover;
+ }
+
+ 
+
  .subheading {
   text-align: center;
+  /* background-color: #3882F6; */
+  font-size: 36px;
+  font-weight: bolder;
+  color:  #1F2937;
+  padding: 40px 0px;
  }
 
  .cards {
   display: flex;
   justify-content: space-around;
+  text-align: center;
+  padding-bottom: 40px;
  }
+
+ .card {
+  margin: 0;
+ }
+
+ .card img {
+  object-fit: cover;
+  border: 4px solid #3882F6;
+  border-radius: 15px;
+  /* margin: 5px 20px 0px 20px; */
+ }
+
+ .quote {
+  background-color: #E5E7EB;
+  font-weight: lighter;
+  color: #1F2937;
+  padding: 40px;
+ }
+
+ .quote p:first-child {
+  font-size: 36px;
+  font-style: italic;
+  margin-bottom: 0px;
+  text-align: center;
+ }
+
+ .quote p:nth-child(2) {
+  /* margin-top: 0; */
+  text-align: center;
+ }
+
+ .section4 {
+  justify-content: center;
+  padding: 40px 20px;
+ }
+
+ .newsletter {
+  width: 60%;
+  padding: 20px;
+  /* border: 2px solid lightgray; */
+  border-radius: 10px;
+  color: #F9FAF8;
+  background-color: #3882F6;
+  display: flex;
+ }
+
+ .newsletter div {
+    flex: 1 1 auto;
+ }
+
+ /* .newsletter button {
+    margin: 25px 25px 25px 0;
+    background-color: #3882F6;
+    color: #F9FAF8;
+ } */
+
+ .signup-text p {
+  margin: 5px 0px;
+ }
+
+ .signup-text p:first-child {
+  padding-top: 10px;
+  font-weight: bold;
+  font-size: 1.2em;
+ }
+
+footer {
+  padding: 20px 0;
+  text-align: center;
+}
+
+ 
+
+
+
+ 
+
+
 
  
 
